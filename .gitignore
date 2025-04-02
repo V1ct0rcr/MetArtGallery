@@ -1,0 +1,16 @@
+*.iml
+.gradle
+.gradle-build-cache
+/local.properties
+.DS_Store
+**/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# ignore all .idea contents
+.idea/*
+# but keep the codeStyles
+!.idea/codeStyles
+!.idea/codeStyles/*
