@@ -29,7 +29,7 @@ class MainActivity : ComponentActivity() {
                     startDestination = "search"
                 ) {
                     composable("search") {
-                        val searchViewModel: SearchViewModel = koinViewModel() // ✅ injecție cu Koin
+                        val searchViewModel: SearchViewModel = koinViewModel()
 
                         SearchScreen(
                             searchViewModel = searchViewModel,
